@@ -1,5 +1,5 @@
 ---
-title: GitHub最全入门手册（小白向
+title: GitHub最全入门手册（小白向）
 
 date: {{date}}
 categories:
@@ -90,8 +90,8 @@ hello.txt会出现一个感叹号，说明此文件已经被修改，然后右�
 可以在版本库浏览器中查看
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190804113307879.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwMjc5MTUx,size_16,color_FFFFFF,t_70)
 # 七、在GitHub上设置远程仓库
-https://blog.csdn.net/qq_40279151/article/details/98462287
+[在GitHub上设置远程仓库](https://qingshijiao.github.io/2019/08/07/%E5%9C%A8GitHub%E4%B8%8A%E8%AE%BE%E7%BD%AE%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93/)
 # 八、分支
-https://www.bilibili.com/video/av53325547/?p=18
+[https://www.bilibili.com/video/av53325547/?p=18](https://www.bilibili.com/video/av53325547/?p=18 "https://www.bilibili.com/video/av53325547/?p=18")
 # 九、IDEA中使用GitHub
-https://www.bilibili.com/video/av53325547/?p=20
+[https://www.bilibili.com/video/av53325547/?p=20](https://www.bilibili.com/video/av53325547/?p=20 "https://www.bilibili.com/video/av53325547/?p=20")

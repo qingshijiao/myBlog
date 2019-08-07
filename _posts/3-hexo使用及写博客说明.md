@@ -81,7 +81,8 @@ tags:
 > -3-hexo
 
 **每一行末尾不要打回车**
-即使你预览的这种形式也没问题，它会自动识别，你打回车它不能识别（说多了都是泪。。。）
+
+**即使你预览的这种形式也没问题，它会自动识别，你打回车它不能识别（说多了都是泪。。。）**
 ![](assets/markdown-img-paste-20190807211049199.png)
 # 三、生成博客效果
 在hexo启动git bash命令行
@@ -100,7 +101,7 @@ tags:
 **在 http://localhost:4000 能显示而在个人博客上泵显示，应该是没运行hexo d引起的**
 
 # 四、在博客文件夹里面搭建本地版本库
-这个主要是为了将博客推从到github上保存，在github新建一个远程仓库或者直接在你的hexokinase仓库（你的github用户名.github.io）上也可以，提交和推从可以看这篇博客
+这个主要是为了将博客推从到github上保存，在github新建一个远程仓库或者直接在你的hexokinase仓库（你的github用户名.github.io）上也可以，提交和推从可以看[这篇博客](https://qingshijiao.github.io/2019/08/07/GitHub%E6%9C%80%E5%85%A8%E5%85%A5%E9%97%A8%E6%89%8B%E5%86%8C%EF%BC%88%E5%B0%8F%E7%99%BD%E5%90%91%EF%BC%89/)
 
 建本地仓库
 ![](assets/markdown-img-paste-20190807212048863.png)
