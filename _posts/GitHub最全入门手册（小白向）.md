@@ -1,3 +1,13 @@
+---
+title: GitHub最全入门手册（小白向
+
+date: {{date}}
+categories:
+- github
+tags:
+- github
+
+---
 **本博客仅用于记录自己学习GitHub的过程，如有侵权，可联系删帖。**
 **原文链接：https://www.bilibili.com/video/av53325547/?p=3**
 
