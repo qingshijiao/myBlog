@@ -15,8 +15,92 @@ tags:
 
 # 一、配置后的情况
 这里补充一条，为了能够快速理解hexo和3-hexo的文件夹内容所表示的含义
-配置后的图片
-![](https://i.imgur.com/1RI7Fuk.png)
+配置后的图片,有几个文件要重点关注，
+> source 博文文件夹，里面存放你写的博客（一般.md文件）
+> themes 主题文件夹，下载的3-hexo主题在里面（注意按照叶落阁命令行下载时，命令行最后有个/themes）
+> _config.yml 配置，配置hexo的信息（并不是3-hexo哦）
+
+![](assets/markdown-img-paste-20190807194607387.png)
+## 1.配置hexo
+打开_config.yml，里面的#相当于注释，有几个地方需要改一下（有可能遗漏，可以自己看着改）
+> title: 秦艽 #标签页上面的
+> author: 秦艽 #写成自己的
+> url: http://qignshiijao.github.io #改成自己的
+> theme: 3-hexo #使用的主题
+> highlight: enable: false #使用叶落阁里面的代码高亮的话，填false
+> deploy: #这应该是搭建博客时就写好的
+>  type: git
+>  repository: git@github.com:qingshijiao/qingshijiao.github.io.git
+>  branch: master
+
+进入themes->3-hexo,
+> .git #本地仓库（这个好像不能提交，但是不能推送的远程仓库，我没有推送成功）
+> source #头像和付款码等
+> _config.yml 配置，配置3-hexo的信息
+
+![](assets/markdown-img-paste-20190807200736938.png)
 
 # 二 、修改3-hexo信息
-## 1.修改图片 ##
+## 1.修改头像和付款码 ##
+三个图片修改一下（名字也可以换成其他，不过考虑到还要在配置文件中更改，我直接沿用叶落阁）
+
+![](assets/markdown-img-paste-20190807201201666.png)
+## 2.更改_config.yml
+> avatar: /img/avatar.jpg #头像
+> favicon: /img/avatar.jpg
+> github: https://github.com/qingshijiao #github地址，也是你头像下方的几个小图标（不填，图标就不会出现）
+> 左下角定义菜单里面，有关于是否显示（true or false）和跳转链接(比如/about)
+> 文末声明可以改
+> highlight: on: true #这是3-hexo自己添加的代码高亮形式，上文中的hexo高亮需关闭
+> 比如代码高亮的theme: atom-light 后面这个可以改成它注释里面的，换个名字就能自动配置好了
+> 友情链接可以添加多个
+> comment评论，这部分我使用的是gitment没有尝试成功，[原文链接](https://yelog.org/2017/06/26/gitment/)
+
+**可以直接执行下面的三查看效果（有时候付款码图片会出现错误，我等了一会，它自动好了，不清楚原因）**
+
+# 二、写博客
+写博客地址blog/source
+![](assets/markdown-img-paste-20190807204425806.png)
+## 1.写404界面
+可以参考[hexo搭建404界面](https://yelog.org/2017/02/25/hexo-create-404-page/)
+需要在hexo文件夹中执行git bash, 输入 hexo new page 404
+测试: https://你的github名字.github.io/404
+## 2.写关于界面
+同搭建404界面差不多，执行hexo new page about
+改成permalink: /about
+## 3.开始写博客
+博文后面有关于写作 https://yelog.org/2017/03/23/3-hexo-instruction/
+我讲一下我遇到的问题，比如这篇文章开头
+> title: 3-hexo使用及写博客说明
+>
+> date: {{date}}
+> categories:
+> -github
+> tags:
+> -hexo
+> -3-hexo
+
+**每一行末尾不要打回车**
+即使你预览的这种形式也没问题，它会自动识别，你打回车它不能识别（说多了都是泪。。。）
+![](assets/markdown-img-paste-20190807211049199.png)
+# 三、生成博客效果
+在hexo启动git bash命令行
+这是分别是
+- hexo clean 清除所有渲染的页面
+- hexo g 将markdown渲染成页面
+- hexo s 启动hexo
+
+![](assets/markdown-img-paste-20190807211250251.png)
+完成之后可以先到 http://localhost:4000 查看效果，再ctrl+c关闭
+![](assets/markdown-img-paste-20190807210252551.png)
+然后将效果渲染到你的博客
+![](assets/markdown-img-paste-20190807210634204.png)
+运行完，刷新一下你的博客就好了
+
+**在 http://localhost:4000 能显示而在个人博客上泵显示，应该是没运行hexo d引起的**
+
+# 四、在博客文件夹里面搭建本地版本库
+这个主要是为了将博客推从到github上保存，在github新建一个远程仓库或者直接在你的hexokinase仓库（你的github用户名.github.io）上也可以，提交和推从可以看这篇博客
+
+建本地仓库
+![](assets/markdown-img-paste-20190807212048863.png)
