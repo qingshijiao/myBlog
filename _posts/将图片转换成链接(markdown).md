@@ -16,5 +16,6 @@ tags:
 
 # 方法二 #
 使用路过图床(     https://imgchr.com/       )，里面有好几种方式，如果你要粘贴到markdown，就用markdown专属的，复制后直接粘贴到文本，不用上传等操作
-![](https://img-blog.csdnimg.cn/20190806090744217.png)
+
+sm.ms [https://sm.ms/](https://sm.ms/)
 
