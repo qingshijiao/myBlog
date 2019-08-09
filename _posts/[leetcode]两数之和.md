@@ -1,5 +1,5 @@
 ---
-title: [leetcode] 1.两数之和 twoSum
+title: [leetcode] 01两数之和(twoSum)
 
 date: {{date}}
 categories:
