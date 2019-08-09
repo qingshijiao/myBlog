@@ -3,7 +3,7 @@ title: 3-hexo使用及写博客说明
 
 date: {{date}}
 categories:
-- github
+- GitHub
 tags:
 - hexo
 - 3-hexo
