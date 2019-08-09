@@ -3,7 +3,7 @@ title: GitHub最全入门手册（小白向）
 
 date: {{date}}
 categories:
-- github
+- GitHub
 tags:
 - github
 
@@ -12,7 +12,7 @@ tags:
 **原文链接：https://www.bilibili.com/video/av53325547/?p=3**
 
 # 一、下载GitHub
-安装过程就不写了，直接看**原文链接**中，非常地详细。（东西不要都装C盘）
+安装过程就不写了，直接看[**原文链接**](https://www.bilibili.com/video/av53325547/?p=3)中，非常地详细。（东西不要都装C盘）
 里面还有TortoiseGit（一个git辅助工具）的安装教程及汉化。
 链接：https://pan.baidu.com/s/1Z1evzqDp8b4OGtyET1Vw2w 提取码：rh3e
 备用  链接：https://pan.baidu.com/s/13mMPAyC7sMRC2e-JLFq-2A  提取码：xtab 

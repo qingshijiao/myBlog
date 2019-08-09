@@ -3,7 +3,7 @@ title: 在GitHub上设置远程仓库
 
 date: {{date}}
 categories:
-- github
+- GitHub
 tags:
 - github
 
