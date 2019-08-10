@@ -19,8 +19,7 @@ tags:
 > source 博文文件夹，里面存放你写的博客（一般.md文件）
 > themes 主题文件夹，下载的3-hexo主题在里面（注意按照叶落阁命令行下载时，命令行最后有个/themes）
 > _config.yml 配置，配置hexo的信息（并不是3-hexo哦）
-
-![](assets/markdown-img-paste-20190807194607387.png)
+![](http://ww1.sinaimg.cn/large/006YaFIqly1g5ude1jvwyj30l30bat9n.jpg)
 ## 1.配置hexo
 打开_config.yml，里面的#相当于注释，有几个地方需要改一下（有可能遗漏，可以自己看着改）
 > title: 秦艽 #标签页上面的
@@ -38,13 +37,13 @@ tags:
 > source #头像和付款码等
 > _config.yml 配置，配置3-hexo的信息
 
-![](assets/markdown-img-paste-20190807200736938.png)
+![](http://ww1.sinaimg.cn/large/006YaFIqly1g5ude1jtp9j30kt07t0tb.jpg)
 
 # 二 、修改3-hexo信息
 ## 1.修改头像和付款码 ##
 三个图片修改一下（名字也可以换成其他，不过考虑到还要在配置文件中更改，我直接沿用叶落阁）
 
-![](assets/markdown-img-paste-20190807201201666.png)
+![](http://ww1.sinaimg.cn/large/006YaFIqly1g5ude1k8wcj30n9065mz9.jpg)
 ## 2.更改_config.yml
 > avatar: /img/avatar.jpg #头像
 > favicon: /img/avatar.jpg
@@ -61,7 +60,7 @@ tags:
 # 二、写博客
 写博客地址blog/source
 一般博客都写在_posts里面
-![](assets/markdown-img-paste-20190807204425806.png)
+![](http://ww1.sinaimg.cn/large/006YaFIqly1g5udh627azj30g305w3yo.jpg)
 ## 1.写404界面
 可以参考[hexo搭建404界面](https://yelog.org/2017/02/25/hexo-create-404-page/)
 需要在hexo文件夹中执行git bash, 输入 hexo new page 404
@@ -84,7 +83,7 @@ tags:
 **每一行末尾不要打回车**
 
 **即使你预览的这种形式也没问题，它会自动识别，你打回车它不能识别（说多了都是泪。。。）**
-![](assets/markdown-img-paste-20190807211049199.png)
+![](http://ww1.sinaimg.cn/large/006YaFIqly1g5udh60ffjj30zi05i74j.jpg)
 # 三、生成博客效果
 在hexo启动git bash命令行
 这是分别是
@@ -92,11 +91,11 @@ tags:
 - hexo g 将markdown渲染成页面
 - hexo s 启动hexo
 
-![](assets/markdown-img-paste-20190807211250251.png)
+![](http://ww1.sinaimg.cn/large/006YaFIqly1g5udh5zqmuj30gx019744.jpg)
 完成之后可以先到 http://localhost:4000 查看效果，再ctrl+c关闭
-![](assets/markdown-img-paste-20190807210252551.png)
+![](http://ww1.sinaimg.cn/large/006YaFIqly1g5udh5zsduj30jq01o746.jpg)
 然后将效果渲染到你的博客
-![](assets/markdown-img-paste-20190807210634204.png)
+![](http://ww1.sinaimg.cn/large/006YaFIqly1g5udh5zrdcj30kc02oaa0.jpg)
 运行完，刷新一下你的博客就好了
 
 **在 http://localhost:4000 能显示而在个人博客上泵显示，应该是没运行hexo d引起的**
@@ -104,5 +103,5 @@ tags:
 # 四、在博客文件夹里面搭建本地版本库
 这个主要是为了将博客推从到github上保存，在github新建一个远程仓库或者直接在你的hexokinase仓库（你的github用户名.github.io）上也可以，提交和推从可以看[这篇博客](https://qingshijiao.github.io/2019/08/07/GitHub%E6%9C%80%E5%85%A8%E5%85%A5%E9%97%A8%E6%89%8B%E5%86%8C%EF%BC%88%E5%B0%8F%E7%99%BD%E5%90%91%EF%BC%89/)
 
-建本地仓库
-![](assets/markdown-img-paste-20190807212048863.png)
+建本地仓库,bash命令行输入git init
+![](http://ww1.sinaimg.cn/large/006YaFIqly1g5udh608yaj30lc09hjru.jpg)
