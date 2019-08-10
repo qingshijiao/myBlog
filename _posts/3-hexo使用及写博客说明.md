@@ -60,6 +60,7 @@ tags:
 
 # 二、写博客
 写博客地址blog/source
+一般博客都写在_posts里面
 ![](assets/markdown-img-paste-20190807204425806.png)
 ## 1.写404界面
 可以参考[hexo搭建404界面](https://yelog.org/2017/02/25/hexo-create-404-page/)
