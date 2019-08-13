@@ -1,5 +1,5 @@
 ---
-title: 7.字符串转换整数(atoi)（String to Integer (atoi))
+title: 8.字符串转换整数(atoi)（String to Integer (atoi))
 
 date: {{date}}
 categories:
