@@ -29,29 +29,25 @@ tags:
 # -*- coding: UTF-8 -*-
 
 
-list = []
-for i in range(3):
-    x = int(input('integer:\n'))
-    list.append(x)
-list.sort()
-print(list)
+def fib(n):
+    a, b = 1, 1
+    for i in range(n - 1):
+        a, b = b, a + b
+    return a
+
+
+print(fib(10))
 
 ```
 **说明：** list 用法
 
 ### 3) 效果
 ```
-integer:
-3
-integer:
-2
-integer:
-1
-[1, 2, 3]
+55
 ```
 ## 2.
 ### 1) 程序分析
-使用排序函数
+使用递归
 
 ### 2) 代码
 
@@ -60,31 +56,23 @@ integer:
 # -*- coding: UTF-8 -*-
 
 
-x = int(input("x:"))
-y = int(input("y:"))
-z = int(input("z:"))
-a = {"x": x, "y": y, "z": z}
-print('--------分割线--------')
-for i in sorted(a, key=a.get):
-    print(i, a[i])
+def fib(n):
+    if (n == 1) or (n == 2):
+        return 1
+    return fib(n - 1) + fib(n - 2)
+
+
+print(fib(10))
 
 ```
-**说明：** [sorted 用法](https://www.runoob.com/python/python-func-sorted.html)
-
 ### 3) 效果
 ```
-x:3
-y:2
-z:1
---------分割线--------
-z 1
-y 2
-x 3
+55
 ```
 
 ## 3.
 ### 1) 程序分析
-自写排序算法
+存储所有斐波那契数
 
 ### 2) 代码
 
@@ -93,30 +81,55 @@ x 3
 # -*- coding: UTF-8 -*-
 
 
-a = []
-for i in range(3):
-    a.append(int(input('integer:\n')))
-n = len(a)
-for i in range(0, n):
-    for j in range(i, n):
-        if a[i] > a[j]:
-            tmp = a[i]
-            a[i] = a[j]
-            a[j] = tmp
+def fib(n):
+    if n == 1:
+        return [1]
+    if n == 2:
+         return [1, 1]
+    fibs = [1, 1]
+    for i in range(2, n):
+        fibs.append(fibs[-1] + fibs[-2])
+    return fibs
 
-print(a)
+
+print(fib(10))
 
 ```
 
 ### 3) 效果
 ```
-integer:
-3
-integer:
-2
-integer:
-1
-[1, 2, 3]
+[1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+```
+
+### 3) 效果
+```
+55
+```
+
+## 4.
+### 1) 程序分析
+使用[斐波那契数列通项公式](https://zhuanlan.zhihu.com/p/26679684)
+
+### 2) 代码
+
+```
+# !/usr/bin/python3
+# -*- coding: UTF-8 -*-
+
+
+def fib(n):
+    return 1 / (5 ** 0.5) * ((((1 + (5 ** 0.5)) / 2) ** n) - (((1 - (5 ** 0.5)) / 2) ** n))
+
+
+print(fib(10))
+print(int(fib(10)))
+
+```
+
+### 3) 效果
+```
+55.000000000000014
+55
 ```
 
 ---
