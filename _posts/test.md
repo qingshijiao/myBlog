@@ -21,9 +21,8 @@ Hello World!
 $t=\sqrt{ma}$
 
 $t = \sqrt{\frac{2h}{g}\qquad}$
+![03](https://i.loli.net/2019/09/06/3UF7iuaWmt8QYSK.png)
 
-
-![08](https://i.loli.net/2019/09/05/vTbiWRpEgDQC2FI.png)
 ---
 ***参考：
 [博客](https://blog.51cto.com/yucanghai/1715170)***
