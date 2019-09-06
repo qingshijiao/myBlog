@@ -9,6 +9,7 @@ tags:
 
 ---
 
+
 # Test Markdown & Latex #
 ## 1.Markdown ##
 Hello World!
@@ -21,6 +22,9 @@ Hello World!
 $t=\sqrt{ma}$
 
 $t = \sqrt{\frac{2h}{g}\qquad}$
+
+
+![04](https://i.loli.net/2019/09/06/WF7bTqa6EK2QmnV.png)
 ![03](https://i.loli.net/2019/09/06/3UF7iuaWmt8QYSK.png)
 
 ---
