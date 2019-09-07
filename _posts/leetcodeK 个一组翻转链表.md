@@ -1,4 +1,4 @@
----
+1---
 title: 25. K 个一组翻转链表（Reverse Nodes in k-Group）
 
 date: {{date}}
@@ -87,34 +87,7 @@ class Solution {
 ### 2.递归
 **思路：**
 反转的时候是
-```mermaid
-graph LR
-A((1)) --> B((2))
-B --> C((3))
-C --> D((4))
-D --> E((5))
-```
-```mermaid
-graph LR
-A((1)) --> B((4))
-C((2)) --> D((3))
-D --> B
-B --> E((5))
-```
-```mermaid
-graph LR
-A((1)) --> B((4))
-C((2)) --> A
-D((3)) --> B
-B --> E((5))
-```
-```mermaid
-graph LR
-A((3)) --> B((2))
-B --> C((1))
-C --> D((4))
-D --> E((5))
-```
+![](https://i.loli.net/2019/09/06/yezQiLI96BWmKMn.png)
 
 ```
 /**
