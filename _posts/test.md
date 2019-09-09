@@ -23,7 +23,8 @@ $t=\sqrt{ma}$
 
 $t = \sqrt{\frac{2h}{g}\qquad}$
 
-
+![01](https://i.loli.net/2019/09/09/hQyiTGYlIwtdmRx.png)
+![02](https://i.loli.net/2019/09/09/5KTX1JbV4ZkQNBG.png)
 ![04](https://i.loli.net/2019/09/06/WF7bTqa6EK2QmnV.png)
 ![03](https://i.loli.net/2019/09/06/3UF7iuaWmt8QYSK.png)
 
