@@ -27,6 +27,9 @@ $t = \sqrt{\frac{2h}{g}\qquad}$
 ![07](https://i.loli.net/2019/09/14/cGwEYWQJM2nOpAm.png)
 ![08](https://i.loli.net/2019/09/14/Xxp7n5iGtYf6jqA.png)
 
+![01](https://i.loli.net/2019/09/15/dZeqDKmj5vITb13.png)
+![02](https://i.loli.net/2019/09/15/Niw9ZxWJjPrzkDp.png)
+
 
 ---
 ***参考：
