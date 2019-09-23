@@ -1,5 +1,5 @@
 ---
-title: 54. 跳跃游戏（Jump Game）
+title: 55. 跳跃游戏（Jump Game）
 
 date: {{date}}
 categories:

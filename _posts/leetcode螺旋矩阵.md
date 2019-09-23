@@ -1,5 +1,5 @@
 ---
-title: 53. 螺旋矩阵（Spiral Matrix）
+title: 54. 螺旋矩阵（Spiral Matrix）
 
 date: {{date}}
 categories:
@@ -195,6 +195,21 @@ class Solution {
             } else if (up > 0) {
                 //向上前进步数未完，继续向上前进
                 currentRow--;
+                up--;
+                if (up == 0) {
+                    //right，down，left，up同时为0,一圈已经走完，round++,并重置下一圈四个方向要走的步数
+                    round++;
+                    right = column - round * 2;
+                    down = row - 1 - round * 2;
+                    left = column - 1 - round * 2;
+                    up = row - 2 - round * 2;
+                }
+            }
+            currentPosition++;
+        }
+        return result;
+    }
+}
 
 ```
 
