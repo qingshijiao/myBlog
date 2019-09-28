@@ -183,7 +183,8 @@ public class Solution {
 
 ### 6.斐波那契公式
 **思路：**
-![](https://i.loli.net/2019/09/28/y2GiK5okPBlpvxR.png)
+
+![](https://i.loli.net/2019/09/28/1gNq2Wbo5kyUsDF.png)
 
 ```
 public class Solution {
