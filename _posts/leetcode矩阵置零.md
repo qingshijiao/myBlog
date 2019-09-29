@@ -1,7 +1,7 @@
 ---
 title: 73. 矩阵置零（Set Matrix Zeroes）
 
-date: {{date}}
+date: 2019-09-29 21:00
 categories:
 - leetcode
 tags:
