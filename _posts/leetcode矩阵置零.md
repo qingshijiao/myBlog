@@ -143,12 +143,14 @@ class Solution {
 ### 3.O(1)空间的优化
 **思路：**
 > 我们可以用每行和每列的第一个元素作为标记，这个标记用来表示这一行或者这一列是否需要赋零。这意味着对于每个节点不需要访问 M+NM+N 个格子而是只需要对标记点的两个格子赋值。
+
 ```
 if cell[i][j] == 0 {
     cell[i][0] = 0
     cell[0][j] = 0
 }
 ```
+
 ![](https://pic.leetcode-cn.com/6a4f63f58794b71cd4521a224fc1823ac5e4639e219dad519d0d8d8a421cf89f-image.png)
 ![](https://pic.leetcode-cn.com/30ef8bed665c20b8a7d1f58224b179d5a265f27e14af04d19be31181a71c61a5-73-1.png)
 通过上述操作得到的标记，并将标记的对于行列元素赋值为零。
