@@ -227,34 +227,89 @@ public List<Integer> postorderTraversal2(TreeNode root) {
 
 
 ```
-public List<Integer> inorderTraversal(TreeNode root) {
-    List<Integer> ans = new ArrayList<>();
-    TreeNode cur = root;
-    while (cur != null) {
-        //情况 1
-        if (cur.left == null) {
-            ans.add(cur.val);
-            cur = cur.right;
-        } else {
-            //找左子树最右边的节点
-            TreeNode pre = cur.left;
-            while (pre.right != null && pre.right != cur) {
-                pre = pre.right;
-            }
-            //情况 2.1
-            if (pre.right == null) {
-                pre.right = cur;
-                cur = cur.left;
-            }
-            //情况 2.2
-            if (pre.right == cur) {
-                pre.right = null; //这里可以恢复为 null
-                ans.add(cur.val);
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+    public List<Integer> postorderTraversal(TreeNode root) {
+        List<Integer> list = new ArrayList<>();
+        TreeNode cur = root;
+        while (cur != null) {
+            // 情况 1
+            if (cur.left == null) {
                 cur = cur.right;
+            } else {
+                // 找左子树最右边的节点
+                TreeNode pre = cur.left;
+                while (pre.right != null && pre.right != cur) {
+                    pre = pre.right;
+                }
+                // 情况 2.1
+                if (pre.right == null) {
+                    pre.right = cur;
+                    cur = cur.left;
+                }
+                // 情况 2.2,第二次遍历节点
+                if (pre.right == cur) {
+                    pre.right = null; // 这里可以恢复为 null
+                    //逆序
+                    TreeNode head = reversList(cur.left);
+                    //加入到 list 中，并且把逆序还原
+                    reversList(head, list);
+                    cur = cur.right;
+                }
             }
         }
+        TreeNode head = reversList(root);
+        reversList(head, list);
+        return list;
     }
-    return ans;
+
+    private TreeNode reversList(TreeNode head) {
+        if (head == null) {
+            return null;
+        }
+        TreeNode tail = head;
+        head = head.right;
+
+        tail.right = null;
+
+        while (head != null) {
+            TreeNode temp = head.right;
+            head.right = tail;
+            tail = head;
+            head = temp;
+        }
+
+        return tail;
+    }
+
+    private TreeNode reversList(TreeNode head, List<Integer> list) {
+        if (head == null) {
+            return null;
+        }
+        TreeNode tail = head;
+        head = head.right;
+        list.add(tail.val);
+        tail.right = null;
+
+        while (head != null) {
+            TreeNode temp = head.right;
+            head.right = tail;
+            tail = head;
+            list.add(tail.val);
+            head = temp;
+        }
+        return tail;
+    }
+
+
 }
 
 ```
