@@ -10,19 +10,41 @@ tags:
 ---
 
 
-# Test Markdown & Latex #
-## 1.Markdown ##
-Hello World!
+### [176\. 第二高的薪水](https://leetcode-cn.com/problems/second-highest-salary/)
 
-    import caffe
-    dir(caffe)
+Difficulty: **简单**
 
-## 2.Latex ##
 
-$t=\sqrt{ma}$
+编写一个 SQL 查询，获取 `Employee` 表中第二高的薪水（Salary） 。
 
-$t = \sqrt{\frac{2h}{g}\qquad}$
+```
++----+--------+
+| Id | Salary |
++----+--------+
+| 1  | 100    |
+| 2  | 200    |
+| 3  | 300    |
++----+--------+
+```
 
+例如上述 `Employee` 表，SQL查询应该返回 `200` 作为第二高的薪水。如果不存在第二高的薪水，那么查询应返回 `null`。
+
+```
++---------------------+
+| SecondHighestSalary |
++---------------------+
+| 200                 |
++---------------------+
+```
+
+
+#### Solution
+
+Language: **MySQL**
+
+```mysql
+​
+```
 
 
 ![](https://i.loli.net/2019/09/23/pnXYRj5ilK2NEBy.png)
