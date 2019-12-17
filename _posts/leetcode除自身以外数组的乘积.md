@@ -1,4 +1,4 @@
----
+s---
 title: 238.除自身以外数组的乘积（Product of Array Except Self）
 
 date: {{date}}
