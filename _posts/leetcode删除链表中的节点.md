@@ -1,7 +1,7 @@
 ---
 title: 237.删除链表中的节点（Delete Node in a Linked List）
 
-date: {{date}}
+date: 2019-12-15 12:00
 categories:
 - leetcode
 tags:
