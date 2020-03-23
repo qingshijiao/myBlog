@@ -1,5 +1,5 @@
 ---
-title: 313.超级丑数 (Super Ugly Number)
+title: 314.二叉树的垂直遍历
 
 date: {{date}}
 categories:
