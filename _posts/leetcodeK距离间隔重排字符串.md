@@ -1,5 +1,5 @@
 ---
-title: 358.K距离间隔重排字符串 (Count Numbers with Unique Digits)
+title: 358.K距离间隔重排字符串 (Rearrange String k Distance Apart)
 
 date: {{date}}
 categories:
