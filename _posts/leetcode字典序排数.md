@@ -1,5 +1,5 @@
 ---
-title: 386.迷你语法分析器 (Lexicographical Numbers)
+title: 386.字典序排数 (Lexicographical Numbers)
 
 date: {{date}}
 categories:
