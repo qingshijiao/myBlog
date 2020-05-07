@@ -43,7 +43,7 @@ Difficulty: **简单**
 Language: **MySQL**
 
 ```mysql
-​
+​select *
 ```
 
 
