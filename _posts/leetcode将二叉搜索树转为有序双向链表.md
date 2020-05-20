@@ -35,9 +35,9 @@ The figure below shows the transformed BST. The solid line indicates the success
 
 #### Solution
 
-Language: **Java**
+Language: **c++**
 
-```java
+```c++
 ​class Solution {
 public:
     Node* treeToDoublyList(Node* root) {
