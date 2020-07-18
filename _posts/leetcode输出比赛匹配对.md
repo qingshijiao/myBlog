@@ -51,9 +51,9 @@ We ensure that the input n can be converted into the form 2k, where k is a posit
 
 #### Solution
 
-Language: **Java**
+Language: **c++**
 
-```java
+```c++
 class Solution {
 public:
     string findContestMatch(int n) {
