@@ -9,7 +9,10 @@ tags:
 - 3-hexo
 
 ---
-关于如何配置3-hexo，我这里就不写了（其实我也忘记怎么配置了），可以看下3-hexo作者写的 [https://yelog.org/2017/03/17/windows-hexo/](https://yelog.org/2017/03/17/windows-hexo/)
+关于如何配置3-hexo，我这里就不写了（其实我也忘记怎么配置了），可以看下3-hexo作者写的
+https://github.com/yelog/hexo-theme-3-hexo
+
+[https://yelog.org/2017/03/17/windows-hexo/](https://yelog.org/2017/03/17/windows-hexo/)
 
 配置好后我想大概有两个问题，一是如何将3-hexo的信息改为自己的（刚配置后还是叶落阁），二是怎么写博客
 
